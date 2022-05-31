@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { Collapse } from "antd";
 import { CaretDownOutlined } from "@ant-design/icons";
 
-const { Panel } = Collapse;
 
 const Accordion = ({ item }) => {
 	const [activeIndex, setActiveIndex] =
