@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "./components/Accordion";
+import Count from "./components/Count";
 
 
 
@@ -16,6 +17,9 @@ const App = () => {
 			<div className="flex justify-center pt-10 w-full">
 				<Accordion item = {items}/>
 				</div>
+			<div className="my-10">
+			<Count/>
+			</div>
 		</div>
 	);
 };
